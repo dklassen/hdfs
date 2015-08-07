@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/colinmarc/hdfs"
+	"github.com/dklassen/hdfs"
 	"github.com/pborman/getopt"
 	"os"
 )

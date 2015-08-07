@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	hdfs "github.com/colinmarc/hdfs/protocol/hadoop_hdfs"
+	hdfs "github.com/dklassen/hdfs/protocol/hadoop_hdfs"
 	"github.com/golang/protobuf/proto"
 	"io"
 	"net"

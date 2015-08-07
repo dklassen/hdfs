@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/colinmarc/hdfs"
+	"github.com/dklassen/hdfs"
 	"io"
 	"os"
 	"path"

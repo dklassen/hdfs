@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/colinmarc/hdfs"
+	"github.com/dklassen/hdfs"
 	"os"
 	"path"
 )

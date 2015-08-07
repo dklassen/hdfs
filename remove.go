@@ -2,8 +2,8 @@ package hdfs
 
 import (
 	"errors"
-	hdfs "github.com/colinmarc/hdfs/protocol/hadoop_hdfs"
-	"github.com/colinmarc/hdfs/rpc"
+	hdfs "github.com/dklassen/hdfs/protocol/hadoop_hdfs"
+	"github.com/dklassen/hdfs/rpc"
 	"github.com/golang/protobuf/proto"
 	"os"
 )

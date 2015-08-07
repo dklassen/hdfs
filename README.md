@@ -1,7 +1,7 @@
 HDFS for Go
 ===========
 
-[![GoDoc](https://godoc.org/github.com/colinmarc/hdfs/web?status.svg)](https://godoc.org/github.com/colinmarc/hdfs/web) [![build](https://travis-ci.org/colinmarc/hdfs.svg?branch=master)](https://travis-ci.org/colinmarc/hdfs)
+[![GoDoc](https://godoc.org/github.com/dklassen/hdfs/web?status.svg)](https://godoc.org/github.com/dklassen/hdfs/web) [![build](https://travis-ci.org/dklassen/hdfs.svg?branch=master)](https://travis-ci.org/dklassen/hdfs)
 
 This is a native golang client for hdfs. It connects directly to the namenode using
 the protocol buffers API.
@@ -75,27 +75,27 @@ Installing
 
 To install the library, once you have Go [all set up][2]:
 
-    $ go get github.com/colinmarc/hdfs
+    $ go get github.com/dklassen/hdfs
 
 Or, to install just the commandline client:
 
-    $ go get github.com/colinmarc/hdfs/cmd/hdfs
+    $ go get github.com/dklassen/hdfs/cmd/hdfs
 
 
 You'll also want to add two lines to your `.bashrc` or `.profile`:
 
-    source $GOPATH/src/github.com/colinmarc/hdfs/cmd/hdfs/bash_completion
+    source $GOPATH/src/github.com/dklassen/hdfs/cmd/hdfs/bash_completion
     HADOOP_NAMENODE="namenode:8020"
 
 Or, to install tab completion globally on linux:
 
-    ln -sT $GOPATH/src/github.com/colinmarc/hdfs/cmd/hdfs/bash_completion /etc/bash_completion.d/gohdfs
+    ln -sT $GOPATH/src/github.com/dklassen/hdfs/cmd/hdfs/bash_completion /etc/bash_completion.d/gohdfs
 
 Acknowledgements
 ----------------
 
 This library is heavily indebted to [snakebite][3].
 
-[1]: https://godoc.org/github.com/colinmarc/hdfs
+[1]: https://godoc.org/github.com/dklassen/hdfs
 [2]: https://golang.org/doc/install
 [3]: https://github.com/spotify/snakebite

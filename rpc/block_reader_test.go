@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	hdfs "github.com/colinmarc/hdfs/protocol/hadoop_hdfs"
+	hdfs "github.com/dklassen/hdfs/protocol/hadoop_hdfs"
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

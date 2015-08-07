@@ -2,7 +2,7 @@ package main
 
 import (
 	"errors"
-	"github.com/colinmarc/hdfs"
+	"github.com/dklassen/hdfs"
 	"io"
 	"net/url"
 	"os"

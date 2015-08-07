@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
-	"github.com/colinmarc/hdfs"
+	"github.com/dklassen/hdfs"
 	"io"
 	"os"
 )
